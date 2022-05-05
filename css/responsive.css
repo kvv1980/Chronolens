@@ -33,7 +33,10 @@
     width: 230px; }
 
   .home-slider-wrap .content .slider-wrap {
-    width: calc(100% - 600px); } }
+    width: calc(100% - 600px); }
+
+  .films-detail-head .content {
+    width: 43%; } }
 @media (max-width: 1500px) {
   .content-width {
     width: 1140px; }
@@ -60,7 +63,11 @@
   .film .right {
     width: calc(100% - 450px); }
     .film .right .film-item {
-      width: 49%; } }
+      width: 49%; }
+
+  .films-detail-head .content h1, .film h2 {
+    font-size: 60px;
+    line-height: 80px; } }
 @media (max-width: 1280px) {
   .content-width {
     width: 960px; }
@@ -136,6 +143,12 @@
 @media (max-width: 991px) {
   .content-width {
     width: 720px; }
+
+  .films-head, .home-slider-wrap, .partners {
+    overflow: hidden; }
+
+  .partners .bg span {
+    top: 50px; }
 
   .open-menu {
     display: -webkit-box;
@@ -288,9 +301,6 @@
     width: 300px;
     height: 300px; }
 
-  main {
-    overflow: hidden; }
-
   .home-slider-wrap h6 {
     margin-bottom: 50px; }
 
@@ -298,7 +308,26 @@
     height: 450px; }
 
   .home-slider-wrap .content-width .bg span {
-    bottom: 350px; } }
+    bottom: 350px; }
+
+  .films-detail-head {
+    margin-top: -84px; }
+
+  .films-detail-head .soc {
+    display: none; }
+
+  .films-detail-head .content-width {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 150px; }
+
+  .films-detail-head .content {
+    width: 100%; }
+
+  .films-detail-head .play-wrap {
+    -webkit-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%); } }
 @media (max-width: 767px) {
   .content-width {
     width: 540px; }
@@ -312,7 +341,7 @@
     height: 95px;
     top: 30px; }
 
-  h2, .home-head-block h1, .home-slider-wrap h1 {
+  h2, .home-head-block h1, .home-slider-wrap h1, .films-detail-head .content h1, .film h2 {
     font-size: 40px;
     line-height: 45px; }
 
@@ -422,7 +451,14 @@
     margin-bottom: 0; }
 
   .film-completed .right .film-item:nth-last-child(2) {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .films-detail-head .content-width {
+    min-height: 700px; }
+
+  .film-about .right .item, .film-director .right .item, .film-festival .right .item, .film-versions .item, .film-stills .right .item {
+    width: 100%;
+    margin-bottom: 30px; } }
 @media (max-width: 575px) {
   .content-width {
     width: 100%;
@@ -691,7 +727,118 @@
     padding-top: 80px; }
 
   .film-completed .right .film-item:nth-last-child(2) {
-    margin-bottom: 60px; } }
+    margin-bottom: 60px; }
+
+  .films-detail-head .play-wrap a .round, .films-detail-head .play-wrap a .round:after, .film-about .video-btn a .round, .film-director .video-btn a .round, .film-festival .video-btn a .round, .film-about .video-btn a .round:after, .film-director .video-btn a .round:after, .film-festival .video-btn a .round:after {
+    width: 40px;
+    height: 40px;
+    font-size: 12px; }
+
+  .films-detail-head .play-wrap a span, .film-about .video-btn a span, .film-director .video-btn a span, .film-festival .video-btn a span {
+    font-size: 11px;
+    line-height: 16px; }
+
+  .films-detail-head .play-wrap {
+    -webkit-transform: translate(-50%, -112%);
+            transform: translate(-50%, -112%); }
+
+  .films-detail-head .bottom ul li {
+    margin: 0 10px; }
+    .films-detail-head .bottom ul li a {
+      font-size: 10px;
+      line-height: 1.5; }
+
+  .films-detail-head .content-width {
+    min-height: 658px; }
+
+  .films-detail-head .bottom .btn-wrap a {
+    margin-bottom: 10px;
+    display: inline-block; }
+
+  .film-about, .film-director, .film-festival {
+    padding: 142px 0 25px; }
+
+  .film-about .left p, .film-director .left p, .film-festival .left p {
+    margin-bottom: 39px; }
+
+  .film-about .left .link-wrap, .film-director .left .link-wrap, .film-festival .left .link-wrap {
+    margin-bottom: 38px; }
+
+  .film-about .right .item h6, .film-director .right .item h6, .film-festival .right .item h6 {
+    font-size: 18px;
+    line-height: 31px;
+    margin-bottom: 20px; }
+
+  .film-about .right .item p.info, .film-director .right .item p.info, .film-festival .right .item p.info {
+    margin-bottom: 21px; }
+
+  .film-about .right .item p.info + p, .film-director .right .item p.info + p, .film-festival .right .item p.info + p {
+    margin-top: 48px; }
+
+  .film-about .right .item, .film-director .right .item, .film-festival .right .item, .film-versions .item, .film-stills .right .item {
+    margin-bottom: 20px; }
+
+  .film-versions .bg span {
+    width: 95px;
+    height: 95px;
+    top: -50px;
+    left: -33px; }
+
+  .film-versions .left {
+    margin-bottom: 20px; }
+
+  .film-versions .item figure {
+    height: 230px; }
+
+  .film-versions .item p {
+    font-size: 22px;
+    line-height: 22px; }
+
+  .film-versions .item {
+    margin-bottom: 55px; }
+
+  .film-director {
+    padding-top: 15px; }
+
+  .film-director .left h6 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 26px; }
+
+  .film-director h2 {
+    margin-bottom: 35px; }
+
+  .film-director .left {
+    margin-bottom: 35px; }
+
+  .film-festival {
+    padding-top: 88px; }
+
+  .film-festival .bg span {
+    width: 95px;
+    height: 85px;
+    top: 98px;
+    left: -35px; }
+
+  .film-festival .right .item ul li p {
+    line-height: 18px; }
+
+  .film-festival .right .item ul li {
+    margin-bottom: 45px; }
+
+  .film-stills {
+    padding: 70px 0 100px; }
+    .film-stills .left {
+      margin-bottom: 18px; }
+
+  .film-stills .right .item a {
+    height: 230px; }
+
+  .film-stills .right .item {
+    margin-bottom: 40px; }
+
+  .films-detail-head .play-wrap a {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(20, 20, 20, 0.5) 0%, rgba(20, 20, 20, 0) 100%); } }
 @media (max-width: 359px) {
   .menu-responsive .menu-wrap {
     width: 100%; }

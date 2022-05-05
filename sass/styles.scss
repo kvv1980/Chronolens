@@ -205,6 +205,7 @@ header{
     position: absolute;
     bottom:60px;
     left: 0;
+    z-index: 10;
   }
   .bottom{
     position: absolute;
@@ -975,6 +976,7 @@ footer .logo-mob{
     position: absolute;
     bottom:60px;
     left: 0;
+    z-index: 10;
   }
   .bottom{
     position: absolute;
@@ -1206,6 +1208,7 @@ footer .logo-mob{
     position: absolute;
     bottom:25px;
     left: 0;
+    z-index: 10;
   }
   .bottom{
     position: absolute;
@@ -1269,3 +1272,400 @@ footer .logo-mob{
   padding-top: 48px ;
 }
 /*-------------------END-PAGE-FILMS-------------------------------*/
+/*--------------------PAGE-FILMS-DETAIL------------------------------*/
+.films-detail-head{
+  overflow: hidden;
+  position: relative;
+  margin-top: -132px;
+  .bg{
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .content-width{
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+  }
+  .soc{
+    position: absolute;
+    bottom:60px;
+    left: 0;
+    z-index: 10;
+  }
+  .bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    &:after{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      content: '';
+      background: radial-gradient(50% 50% at 50% 50%, rgba(20, 20, 20, 0.85) 0%, rgba(20, 20, 20, 0) 100%);
+      width: 615px;
+      height: 204px;
+      transform: translate(-50%,-50%);
+    }
+    .btn-wrap{
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      position: relative;
+      z-index: 1;
+      li{
+        margin: 0 17px;
+        a{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          text-align: center;
+          color: #F4F4F4;
+          &:hover{
+            color: #fff;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  .content{
+    width: 35%;
+    h1{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 98px;
+      color: #F4F4F4;
+      margin: 0;
+    }
+  }
+  .play-wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 204px;
+      height: 204px;
+      border-radius: 100%;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(20, 20, 20, 0.85) 0%, rgba(20, 20, 20, 0) 100%);
+      span{
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #F4F4F4;
+      }
+      .round{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: #F4F4F4;
+        margin-bottom: 15px;
+        width: 66px;
+        height: 66px;
+        transition: all .4s ease;
+        position: relative;
+        padding: 0 0 0 3px;
+        &:after{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          border-radius: 100%;
+          border: 1px solid #F4F4F4;
+          content: '';
+          transition: all .4s ease;
+          width: 66px;
+          height: 66px;
+          transform: translate(-50%,-50%);
+        }
+      }
+      &:hover{
+        .round{
+          &:after{
+            width: 70px;
+            height: 70px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.film-about, .film-director, .film-festival{
+  padding: 250px 0 120px;
+  .left{
+    p{
+      margin-bottom: 20px;
+    }
+    .link-wrap{
+      margin-bottom: 100px;
+    }
+  }
+  .video-btn{
+    a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      border-radius: 100%;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(20, 20, 20, 0.85) 0%, rgba(20, 20, 20, 0) 100%);
+      span{
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #F4F4F4;
+      }
+      .round{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: #F4F4F4;
+        margin-bottom: 15px;
+        width: 66px;
+        height: 66px;
+        transition: all .4s ease;
+        position: relative;
+        padding: 0 0 0 3px;
+        &:after{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          border-radius: 100%;
+          border: 1px solid #F4F4F4;
+          content: '';
+          transition: all .4s ease;
+          width: 66px;
+          height: 66px;
+          transform: translate(-50%,-50%);
+        }
+      }
+      &:hover{
+        .round{
+          &:after{
+            width: 70px;
+            height: 70px;
+          }
+        }
+      }
+    }
+  }
+  .right{
+    .item{
+      width: 45%;
+      h6{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        color: #F2AB27;
+        margin-bottom: 30px;
+      }
+      p{
+        margin-bottom: 30px;
+      }
+      p.info{
+        margin-bottom: 14px;
+        b{
+          font-weight: 700;
+        }
+      }
+      p.info + p{
+        margin-top: 33px;
+      }
+      p.info + p.info{
+        margin-top:0;
+      }
+      figure{
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.film-column{
+  .right{
+    width: calc(100% - 610px);
+  }
+}
+
+.film-versions{
+  padding: 168px 0 150px;
+  .bg{
+    span{
+      display: inline-block;
+      position: absolute;
+      top: -87px;
+      left: -62px;
+      border: 1px solid #F2AB27;
+      width: 185px;
+      height: 185px;
+      border-radius: 100%;
+      transition: all .4s ease;
+      animation: 30s linear infinite anim1;
+    }
+  }
+  .content-width{
+    position: relative;
+
+  }
+  .content{
+    position: relative;
+    z-index: 1;
+  }
+  .item{
+    width: 45%;
+    a{
+      &:hover{
+        figure{
+          img{
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+    figure{
+      width: 100%;
+      height: 285px;
+      margin-bottom: 20px;
+      filter: drop-shadow(5px 5px 25px #000000);
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .4s ease;
+      }
+    }
+    p{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 24px;
+      color: #F4F4F4;
+    }
+  }
+}
+.film-director{
+  padding: 102px 0 150px;
+  .right .item p{
+    margin-bottom: 26px;
+  }
+  .left{
+    h6{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 36px;
+      color: #F4F4F4;
+      margin-bottom: 17px;
+    }
+    ul{
+      li{
+        margin-bottom: 17px;
+        a{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #DCDCDC;
+          &:hover{
+            opacity: 0.7;
+            color: #fff;
+          }
+          i{
+            font-size: 34px;
+          }
+        }
+      }
+    }
+  }
+}
+.film-festival{
+  padding: 80px 0 175px;
+  position: relative;
+  .content{
+    position: relative;
+    z-index: 1;
+  }
+  .bg{
+    span{
+      display: inline-block;
+      position: absolute;
+      top: 34%;
+      left: 28%;
+      border: 1px solid #F2AB27;
+      width: 332px;
+      height: 332px;
+      border-radius: 100%;
+      transition: all .4s ease;
+      animation: 30s linear infinite anim1;
+    }
+  }
+  .right .item{
+    width: 46%;
+    ul{
+      li{
+        margin-bottom: 31px;
+        p{
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+.film-stills{
+  padding: 150px 0 100px;
+  .right{
+    .item{
+      margin-bottom: 65px;
+      width: 46%;
+      a{
+        display: block;
+        height: 285px;
+        overflow: hidden;
+        width: 100%;
+        &:hover{
+          img{
+            transform: scale(1.05);
+          }
+        }
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .4s ease;
+      }
+    }
+  }
+}
+/*-------------------END-PAGE-FILMS-DETAIL------------------------------*/
