@@ -62,5 +62,22 @@ jQuery(document).ready(function ($) {
     },
   });
 
+  /*form*/
+  $('.form-default .input-wrap input').change(function () {
+    myInput = $(this);
+    tmpval = $(this).val();
+    if (tmpval == '') {
+      $(myInput).siblings('label').removeClass('is-active');
+    } else {
+      $(myInput).siblings('label').addClass('is-active');
+    }
+  });
+  $('.form-default .input-wrap input').focus(function (e) {
+    $(this).siblings('label').addClass('is-focus')
+  });
+  $('.form-default .input-wrap input').blur(function (e) {
+    $(this).siblings('label').removeClass('is-focus')
+  });
+
 });
 

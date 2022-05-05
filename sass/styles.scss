@@ -1937,3 +1937,119 @@ main .work:last-child{
   margin-bottom: 170px;
 }
 /*-------------------END-PAGE-ABOUT------------------------------*/
+/*------------------PAGE-CONTACT-------------------------------*/
+.contact-head{
+  padding: 193px 0 100px;
+  .content-width{
+    position: relative;
+  }
+  .bg{
+    span{
+      display: inline-block;
+      position: absolute;
+      top: -97px;
+      left: -62px;
+      border: 1px solid #F2AB27;
+      width: 186px;
+      height: 186px;
+      border-radius: 100%;
+      transition: all .4s ease;
+      animation: 30s linear infinite anim1;
+    }
+  }
+  h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    color: #F4F4F4;
+    margin-bottom: 40px;
+  }
+  .item{
+    ul + h6{
+      margin-top: 75px;
+    }
+  }
+}
+.form-default{
+  margin: 35px 0 30px;
+  .input-wrap {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  input{
+    border: none;
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #F4F4F4;
+    line-height: 50px;
+    border-bottom: 1px solid #F2AB27;
+    background: transparent;
+  }
+  label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #F4F4F4;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+  label.is-focus, label.is-active{
+    top: -20px;
+    font-size: 14px;
+  }
+}
+.btn-black{
+  background: transparent;
+  color: $accent;
+}
+.soc-wrap{
+  padding-top: 15px;
+  p{
+    margin-bottom: 33px!important;
+  }
+  .link{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: #F4F4F4;
+    i{
+      position: relative;
+      margin-right: 30px;
+      font-size: 28px;
+      width: 30px;
+    }
+    span{
+      display: inline-block;
+      position: relative;
+      &:after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        height: 1px;
+        background: #F4F4F4;
+        transition: all .4s ease;
+        transform-origin: left;
+      }
+    }
+    &:hover{
+      span{
+        &:after{
+          transform: scaleX(0);
+        }
+      }
+    }
+  }
+}
+/*-----------------END-PAGE-CONTACT-------------------------------*/

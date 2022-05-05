@@ -74,7 +74,7 @@
       width: 49%;
     }
   }
-  .films-detail-head .content h1, .film h2 {
+  .films-detail-head .content h1, .film h2, .contact-head h1 {
     font-size: 60px;
     line-height: 80px;
   }
@@ -397,7 +397,7 @@
     height: 95px;
     top: 30px;
   }
-  h2, .home-head-block h1, .home-slider-wrap h1, .films-detail-head .content h1, .film h2{
+  h2, .home-head-block h1, .home-slider-wrap h1, .films-detail-head .content h1, .film h2, .contact-head h1{
     font-size: 40px;
     line-height: 45px;
   }
@@ -973,6 +973,37 @@
   }
   .home-slider-wrap + .partners{
     margin-top: 65px;
+  }
+  .contact-head {
+    padding: 120px 0 100px;
+  }
+  .contact-head .bg span{
+    width: 95px;
+    height: 95px;
+    top: -45px;
+    left: -35px;
+  }
+  .contact-head h1{
+    margin-bottom: 20px;
+  }
+  .contact-head .left {
+    margin-bottom: 3px;
+  }
+  .contact-head .item ul + h6 {
+    margin-top: 55px;
+  }
+  .form-default label{
+    font-size: 18px;
+  }
+  .form-default input{
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .form-default {
+    margin: 25px 0 30px;
+  }
+  .contact-head .form-default{
+    margin-top: -5px;
   }
 }
 @media (max-width: 359px) {

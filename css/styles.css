@@ -1810,5 +1810,104 @@ main .work:last-child {
   margin-bottom: 170px; }
 
 /*-------------------END-PAGE-ABOUT------------------------------*/
+/*------------------PAGE-CONTACT-------------------------------*/
+.contact-head {
+  padding: 193px 0 100px; }
+  .contact-head .content-width {
+    position: relative; }
+  .contact-head .bg span {
+    display: inline-block;
+    position: absolute;
+    top: -97px;
+    left: -62px;
+    border: 1px solid #F2AB27;
+    width: 186px;
+    height: 186px;
+    border-radius: 100%;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-animation: 30s linear infinite anim1;
+            animation: 30s linear infinite anim1; }
+  .contact-head h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    color: #F4F4F4;
+    margin-bottom: 40px; }
+  .contact-head .item ul + h6 {
+    margin-top: 75px; }
+
+.form-default {
+  margin: 35px 0 30px; }
+  .form-default .input-wrap {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px; }
+  .form-default input {
+    border: none;
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #F4F4F4;
+    line-height: 50px;
+    border-bottom: 1px solid #F2AB27;
+    background: transparent; }
+  .form-default label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #F4F4F4;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease; }
+  .form-default label.is-focus, .form-default label.is-active {
+    top: -20px;
+    font-size: 14px; }
+
+.btn-black {
+  background: transparent;
+  color: #F4F4F4; }
+
+.soc-wrap {
+  padding-top: 15px; }
+  .soc-wrap p {
+    margin-bottom: 33px !important; }
+  .soc-wrap .link {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: #F4F4F4; }
+    .soc-wrap .link i {
+      position: relative;
+      margin-right: 30px;
+      font-size: 28px;
+      width: 30px; }
+    .soc-wrap .link span {
+      display: inline-block;
+      position: relative; }
+      .soc-wrap .link span:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        height: 1px;
+        background: #F4F4F4;
+        -webkit-transition: all .4s ease;
+        transition: all .4s ease;
+        -webkit-transform-origin: left;
+                transform-origin: left; }
+    .soc-wrap .link:hover span:after {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0); }
+
+/*-----------------END-PAGE-CONTACT-------------------------------*/
 
 /*# sourceMappingURL=styles.css.map */
