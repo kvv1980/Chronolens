@@ -311,26 +311,26 @@ header{
   }
 }
 @keyframes anim1 {
-  0%{
+/*  0%{
     transform: scale(1);
   }
   25%{
-    transform: scale(0.8);
+    transform: scale(1);
   }
   50%{
     transform: scale(1);
   }
   75%{
-    transform: scale(1.2);
+    transform: scale(1);
   }
   100%{
     transform: scale(1);
-  }
+  }*/
 }
 /*---------------------------END-PRODUCTION-------------------------------*/
 /*---------------------------FILM-------------------------------*/
 .film{
-  padding: 195px 0 120px;
+  padding: 125px 0 120px;
   .content{
     display: flex;
     justify-content: space-between;
@@ -597,8 +597,8 @@ header{
     span{
       display: inline-block;
       position: absolute;
-      top: 207px;
-      left: 1.5%;
+      top: 100px;
+      left: -3.5%;
       border: 1px solid #F2AB27;
       width: 186px;
       height: 185px;
@@ -608,6 +608,9 @@ header{
       -webkit-animation: 30s linear infinite anim1;
       animation: 30s linear infinite anim1;
     }
+  }
+  .content-width{
+    position: relative;
   }
   .content{
     display: flex;

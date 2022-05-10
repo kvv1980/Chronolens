@@ -289,42 +289,42 @@ header {
       margin-bottom: 0; }
 
 @-webkit-keyframes anim1 {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  25% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8); }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  75% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
+  /*  0%{
+      transform: scale(1);
+    }
+    25%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1);
+    }
+    75%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1);
+    }*/ }
 
 @keyframes anim1 {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  25% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8); }
-  50% {
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  75% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
+  /*  0%{
+      transform: scale(1);
+    }
+    25%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1);
+    }
+    75%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1);
+    }*/ }
 /*---------------------------END-PRODUCTION-------------------------------*/
 /*---------------------------FILM-------------------------------*/
 .film {
-  padding: 195px 0 120px; }
+  padding: 125px 0 120px; }
   .film .content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -582,8 +582,8 @@ header {
   .consulting .bg span {
     display: inline-block;
     position: absolute;
-    top: 207px;
-    left: 1.5%;
+    top: 100px;
+    left: -3.5%;
     border: 1px solid #F2AB27;
     width: 186px;
     height: 185px;
@@ -592,6 +592,8 @@ header {
     transition: all .4s ease;
     -webkit-animation: 30s linear infinite anim1;
     animation: 30s linear infinite anim1; }
+  .consulting .content-width {
+    position: relative; }
   .consulting .content {
     display: -webkit-box;
     display: -ms-flexbox;

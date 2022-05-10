@@ -255,7 +255,7 @@
     overflow: hidden; }
 
   .production .bg span {
-    left: 70%;
+    left: 0;
     top: 0; }
 
   .film {
@@ -275,7 +275,7 @@
     margin-bottom: 40px; }
 
   .partners .bg span {
-    left: 70%;
+    left: 0;
     top: 100px; }
 
   .partners .text-wrap {
