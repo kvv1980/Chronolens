@@ -1,0 +1,1099 @@
+@media (max-width: 1800px) {
+  .content-width {
+    width: 1400px; }
+
+  .work .content-width {
+    height: 950px; }
+
+  .filmmakers .right {
+    width: calc(100% - 600px); }
+
+  .partners .content {
+    width: 80%; }
+
+  .partners .bg span {
+    left: 2%; }
+
+  .consulting .title {
+    width: 435px; }
+
+  .consulting .text-wrap {
+    width: calc(100% - 520px); }
+
+  .production .bg span {
+    left: 0; }
+
+  .filmmakers .right .item {
+    margin-right: 12%; }
+
+  .consulting .text-wrap .left {
+    width: 50%; }
+
+  .consulting .text-wrap .left ul li p {
+    width: 230px; }
+
+  .home-slider-wrap .content .slider-wrap {
+    width: calc(100% - 600px); }
+
+  .films-detail-head .content {
+    width: 43%; }
+  .films-head .video-wrap {
+    height: 784px;
+  }
+  .film.news .film-item {
+    width: calc(33.33% - 25px)!important;
+  }
+  .film .right .film-item {
+    width: 49%; } }
+@media (max-width: 1500px) {
+  .content-width {
+    width: 1140px; }
+  .single .title-wrap .title h1, section.single .title-wrap .title h1{
+    font-size: 40px;
+  }
+  .filmmakers .right .item {
+    margin-right: 0; }
+
+  .consulting .text-wrap .left {
+    width: 100%;
+    margin-bottom: 30px; }
+
+  .consulting .text-wrap figure {
+    width: 500px; }
+
+  .home-slider-wrap .content .title {
+    width: 440px; }
+
+  .home-slider-wrap .content .slider-wrap {
+    width: calc(100% - 500px); }
+
+  .film .left {
+    width: 400px; }
+
+  .film .right {
+    width: calc(100% - 450px); }
+    .film .right .film-item {
+      width: 49%; }
+
+  .films-detail-head .content h1, .film h2, .contact-head h1, .default-page h1 {
+    font-size: 60px;
+    line-height: 80px; }
+
+  .exhibitions-section .content:before {
+    left: 400px; }
+
+  .exhibitions-section .content-width .line {
+    left: 412px; }
+
+  .exhibitions-section .content:last-child:after {
+    left: 410px; }
+
+  .home-slider-wrap .content .title {
+    padding-top: 150px; }
+  .filmmakers .right{
+    -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;
+  }
+
+  .films-head .video-wrap {
+    height: 636px;
+  }
+  .about-head .slider-wrap > figure {
+    height: 500px; } }
+@media (max-width: 1280px) {
+  .content-width {
+    width: 960px; }
+  .filmmakers .right{
+    -webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;
+  }
+  .production .title {
+    width: 48%;
+    margin-right: 0; }
+
+  h2, .home-head-block h1, .home-slider-wrap h1 {
+    font-size: 60px;
+    line-height: 80px; }
+
+  .home-head-block h6 {
+    font-size: 20px;
+    line-height: 1; }
+
+  .production .text-wrap {
+    width: 48%; }
+
+  .film .left {
+    width: 100%;
+    margin-bottom: 50px; }
+
+  .film .right {
+    width: 100%; }
+    .film .right .film-item {
+      width: 49%; }
+
+  .filmmakers .left {
+    width: 100%;
+    margin-bottom: 50px; }
+
+  .filmmakers .right {
+    width: 100%; }
+
+  .filmmakers .right .item {
+    margin-right: 12%; }
+
+  .partners .content {
+    width: 100%; }
+
+  .consulting .title {
+    width: 100%;
+    margin-bottom: 30px; }
+
+  .consulting .text-wrap {
+    width: 100%; }
+
+  .consulting .text-wrap .left {
+    width: 48%; }
+
+  .consulting .text-wrap figure {
+    width: 49%; }
+
+  .consulting .bg span {
+    top: 0;
+    left: 70%; }
+
+  .home-slider-wrap .content .title {
+    width: 350px; }
+
+  .home-slider-wrap .content .slider-wrap {
+    width: calc(100% - 400px); }
+
+  .home-slider .swiper-slide figure {
+    height: 500px; }
+
+  .home-slider-wrap .content .title {
+    height: 530px; }
+
+  .films-head .video-wrap {
+    height: 550px; }
+
+  .exhibitions-head .soc {
+    margin-top: 0; }
+
+  .exhibitions-section .content-width .line {
+    left: -15px;
+    top: 30px; }
+
+  .exhibitions-section .content:before {
+    left: -28px;
+    top: 47px; }
+
+  .exhibitions-section .content:nth-child(2):before {
+    top: 20px; }
+
+  .exhibitions-section .content:last-child:after {
+    left: -20px;
+    top: 72px; } }
+@media (max-width: 991px) {
+  .content-width {
+    width: 720px; }
+
+  .films-head, .home-slider-wrap, .partners {
+    overflow: hidden; }
+
+  .partners .bg span {
+    top: 50px; }
+
+  .open-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 2px; }
+    .open-menu a {
+      display: inline-block;
+      width: 30px;
+      height: 18px; }
+      .open-menu a span {
+        display: inline-block;
+        height: 2px;
+        background: #F4F4F4;
+        width: 100%;
+        float: right;
+        -webkit-transition: all .4s ease;
+        transition: all .4s ease;
+        position: relative;
+        top: 0; }
+      .open-menu a span + span {
+        margin-top: 6px; }
+      .open-menu a span:first-child {
+        width: 20px; }
+      .open-menu a span:last-child {
+        width: 15px; }
+
+  .open-menu.is-active a span:first-child {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 7px; }
+  .open-menu.is-active a span:nth-child(2) {
+    opacity: 0; }
+  .open-menu.is-active a span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: -7px; }
+  .open-menu.is-active a span {
+    width: 30px; }
+
+  .top-menu ul {
+    display: none; }
+
+  .top-line {
+    padding: 20px 0; }
+
+  .home-head-block {
+    margin-top: -84px; }
+
+  .home-head-block .soc, .home-slider-wrap .soc {
+    display: none; }
+
+  .home-head-block .content {
+    padding-top: 100px; }
+
+  .production .title {
+    width: 100%;
+    margin-bottom: 30px; }
+
+  .production .text-wrap {
+    width: 100%; }
+
+  .production {
+    padding: 100px 0;
+    overflow: hidden; }
+
+  .production .bg span {
+    left: 0;
+    top: 0; }
+
+  .film {
+    padding: 100px 0; }
+
+  .film-item a figure {
+    height: 230px; }
+
+  .work .content-width {
+    height: 850px;
+    padding-bottom: 50px; }
+
+  .filmmakers .right .item {
+    margin-right: 8%; }
+
+  .filmmakers .right .item {
+    margin-bottom: 40px; }
+
+  .partners .bg span {
+    left: 0;
+    top: 100px; }
+
+  .partners .text-wrap {
+    -webkit-column-gap: 40px;
+            column-gap: 40px; }
+
+  .consulting .text-wrap .left {
+    width: 100%; }
+
+  .consulting .text-wrap figure {
+    width: 500px; }
+
+  footer .logo-wrap img {
+    width: 130px; }
+
+  footer .left {
+    width: calc(50% - 75px); }
+
+  footer .right {
+    width: calc(50% - 75px); }
+
+  footer .logo-wrap {
+    width: 150px; }
+
+  footer .left .rating li {
+    margin-right: 15px; }
+
+  footer {
+    padding: 50px 0; }
+
+  .partners {
+    padding: 100px 0; }
+
+  .filmmakers {
+    padding: 100px 0; }
+
+  .production {
+    overflow: hidden; }
+
+  .home-slider-wrap .content .slider-wrap {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+
+  .home-slider-wrap .content .title {
+    width: 100%;
+    padding-top: 50px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+    .home-slider-wrap .content .title .nav-wrap {
+      display: none; }
+
+  .home-slider-wrap .content-width .bg span {
+    width: 300px;
+    height: 300px; }
+
+  .home-slider-wrap h6 {
+    margin-bottom: 50px; }
+
+  .films-head .video-wrap {
+    height: 450px; }
+
+  .home-slider-wrap .content-width .bg span {
+    bottom: 350px; }
+
+  .films-detail-head {
+    margin-top: -84px; }
+
+  .films-detail-head .soc {
+    display: none; }
+
+  .films-detail-head .content-width {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 150px; }
+
+  .films-detail-head .content {
+    width: 100%; }
+
+  .films-detail-head .play-wrap {
+    -webkit-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%); }
+
+  .exhibitions-head .soc {
+    display: none; }
+
+  .exhibitions-section {
+    padding: 50px 0; }
+  .film.news .right{
+    -webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;
+  }
+  .tab-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .film.news .film-item {
+    width: 49%!important;
+    margin-right: 0;
+  }
+  .single .title-wrap .title{
+    width: 100%;
+    -webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;
+  }
+  .single .title-wrap figure{
+    width: 100%;
+    -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1;
+    margin-bottom: 30px;
+  }
+  section.single .title-wrap figure{
+    width: 100%;
+  }
+  section.single .title-wrap .title{
+    width: 100%;
+  }
+  .about-head .content-width .bg span {
+    bottom: 260px; } }
+@media (max-width: 767px) {
+  .content-width {
+    width: 540px; }
+
+  .home-head-block .content {
+    max-width: 400px; }
+
+  .production .bg span {
+    left: -30px;
+    width: 95px;
+    height: 95px;
+    top: 30px; }
+
+  h2, .home-head-block h1, .home-slider-wrap h1, .films-detail-head .content h1, .film h2, .contact-head h1, .default-page h1 {
+    font-size: 40px;
+    line-height: 45px; }
+
+  .film .left p {
+    margin-bottom: 50px; }
+
+  .work .content {
+    width: 100%; }
+
+  .filmmakers .left p {
+    margin-bottom: 50px; }
+
+  .filmmakers .right {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .filmmakers .right .item {
+      margin: 0 20px 30px !important; }
+
+  .partners .bg span {
+    width: 95px;
+    height: 95px;
+    left: -30px;
+    top: 30px; }
+
+  .partners .text-wrap {
+    -webkit-column-count: 1;
+            column-count: 1; }
+
+  .consulting .bg span {
+    display: none; }
+
+  footer .logo-wrap {
+    width: 100%;
+    padding: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 50px;
+    text-align: left; }
+
+  footer .left {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 50px; }
+
+  footer .right {
+    width: 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; }
+    footer .right p {
+      text-align: left; }
+
+  .consulting .text-wrap .left figure {
+    display: block;
+    width: 100%;
+    height: 285px;
+    margin: 0 0 23px; }
+    .consulting .text-wrap .left figure img {
+      width: 100%;
+      height: 100%; }
+
+  .consulting .text-wrap figure {
+    display: none; }
+
+  .consulting .text-wrap .left p {
+    margin-bottom: 40px; }
+
+  .consulting .text-wrap .left ul li h6 {
+    margin-bottom: 18px; }
+
+  .consulting .text-wrap .left ul li:last-child h6 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  .consulting .text-wrap .left ul li:last-child p {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    margin-bottom: 17px; }
+
+  footer .logo-wrap img {
+    display: none; }
+
+  footer .logo-wrap .logo-mob {
+    display: inline-block; }
+
+  .home-slider .swiper-slide figure {
+    height: 350px; }
+
+  .films-head .content-width .bg span {
+    width: 95px;
+    height: 95px;
+    right: 0;
+    bottom: 75px; }
+
+  .films-head .video-wrap {
+    height: 350px; }
+
+  .films-head .soc {
+    display: none; }
+
+  .film-completed .right .film-item:last-child {
+    margin-bottom: 0; }
+
+  .film-completed .right .film-item:nth-last-child(2) {
+    margin-bottom: 0; }
+
+  .films-detail-head .content-width {
+    min-height: 700px; }
+
+  .film-about .right .item, .film-director .right .item, .film-festival .right .item, .film-versions .item, .film-stills .right .item {
+    width: 100%;
+    margin-bottom: 30px; }
+
+  .exhibitions-section .content:nth-child(2):before {
+    top: 9px; }
+
+  .about-head .content-width .bg span {
+    bottom: 200px; }
+
+  .about-head .slider-wrap > figure {
+    height: 350px; }
+  section.single .title-wrap{
+    -ms-flex-wrap: wrap;flex-wrap: wrap;
+  }
+  section.single .title-wrap .title{
+    width: 100%;
+  }
+  section.single .title-wrap figure{
+    width: 100%;
+  }
+  .home-slider-wrap + .partners {
+    padding: 100px 0 50px; } }
+@media (max-width: 575px) {
+  .content-width {
+    width: 100%;
+    padding: 0 29px; }
+
+  .is-safari .menu-responsive .menu-wrap {
+    padding-bottom: 130px; }
+
+  .menu-responsive .menu-wrap {
+    width: 360px; }
+
+  .top-line .logo-wrap img {
+    width: 168px; }
+
+  .top-line .content-width {
+    padding: 0 27px; }
+
+  .open-menu {
+    padding-top: 0;
+    position: relative;
+    top: -1px; }
+
+  .home-head-block .content-width {
+    max-height: 650px; }
+
+  .home-head-block .bottom ul li a {
+    font-size: 10px;
+    line-height: 1.5; }
+
+  .home-head-block .bottom .btn-wrap {
+    margin-bottom: 8px; }
+
+  .home-head-block h6 {
+    font-size: 18px;
+    line-height: 18px; }
+
+  .home-head-block .content {
+    padding-top: 215px; }
+
+  .production {
+    padding: 144px 0 48px; }
+
+  p, body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px; }
+
+  .production .title {
+    margin-bottom: 20px; }
+
+  .production .bg span {
+    top: 95px; }
+
+  .production .text-wrap p {
+    margin-bottom: 24px; }
+
+  .film h2 {
+    margin-bottom: 20px; }
+
+  .link-wrap a {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400; }
+
+  .film .left p {
+    margin-bottom: 45px; }
+
+  .link-wrap a img {
+    margin-left: 25px; }
+
+  .film .right .film-item {
+    width: 100%; }
+
+  .film .left {
+    margin-bottom: 58px; }
+
+  .film-item a .text-wrap h6 {
+    padding: 0;
+    font-size: 22px;
+    line-height: 22px; }
+
+  .film-item a .text-wrap p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px; }
+
+  .film-item a .text-wrap p.year {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    margin: 8px 0 0; }
+
+  .film-item {
+    margin-bottom: 60px; }
+
+  .film {
+    padding: 100px 0 81px; }
+
+  .work .content p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px; }
+
+  .work .content-width {
+    height: 630px; }
+
+  .work .content p {
+    margin-bottom: 44px; }
+
+  .work h2 {
+    margin-bottom: 20px; }
+
+  .filmmakers {
+    padding: 153px 0 10px; }
+
+  .filmmakers h2 {
+    margin-bottom: 20px; }
+
+  .filmmakers .left p {
+    margin-bottom: 45px; }
+
+  .filmmakers .right {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 360px;
+    margin: auto; }
+
+  .filmmakers .right .item {
+    width: 135px;
+    margin: 0 0 57px !important; }
+
+  .filmmakers .right .item figure {
+    height: 135px;
+    margin-bottom: 21px; }
+
+  .filmmakers .left {
+    margin-bottom: 58px; }
+
+  .filmmakers .right .item .text-wrap p {
+    font-size: 18px;
+    line-height: 28px; }
+
+  .partners {
+    padding: 78px 0 75px; }
+
+  .partners h2 {
+    margin-bottom: 20px; }
+
+  .consulting {
+    padding: 43px 0 20px; }
+
+  .consulting .text-wrap .left p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px; }
+
+  .consulting .title {
+    margin-bottom: 22px; }
+
+  footer {
+    margin: 0 29px; }
+
+  .consulting .text-wrap .left {
+    margin-bottom: 0; }
+
+  footer {
+    padding: 15px 0 60px; }
+
+  footer .logo-wrap img {
+    width: auto; }
+
+  footer .content-width {
+    padding-top: 80px; }
+
+  footer .left p a {
+    font-size: 20px;
+    line-height: 20px; }
+
+  footer .logo-wrap {
+    margin-bottom: 70px; }
+
+  footer .left .rating li img {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
+
+  footer .left {
+    margin-bottom: 70px; }
+
+  .home-slider-wrap {
+    padding: 12px 0 0; }
+
+  .home-slider .swiper-slide figure {
+    height: 250px; }
+
+  .home-slider-wrap .content .title {
+    padding-top: 43px; }
+
+  .home-slider-wrap h6 {
+    font-size: 18px;
+    line-height: 18px; }
+
+  .home-slider-wrap h1 {
+    margin-bottom: 15px; }
+
+  .home-slider .swiper-slide figure figcaption p, .films-head .video-wrap .info p {
+    font-size: 8px;
+    line-height: 8px; }
+
+  .home-slider .swiper-slide figure figcaption p.year, .films-head .video-wrap .info p.year {
+    font-size: 8px;
+    line-height: 8px;
+    margin-bottom: 8px; }
+
+  .home-slider .swiper-slide figure figcaption, .films-head .video-wrap .info {
+    padding: 0 15px 10px 24px;
+    min-width: 145px; }
+
+  .home-slider-wrap .bottom ul li a {
+    font-size: 10px;
+    line-height: 1.5; }
+
+  .home-slider-wrap .content-width {
+    padding-bottom: 110px; }
+
+  .home-slider-wrap .content-width .bg span {
+    bottom: inherit;
+    width: 95px;
+    height: 95px;
+    top: 178px;
+    right: 10px; }
+
+  .home-slider .swiper-slide figure figcaption:before {
+    top: 0; }
+
+  .films-head .video-wrap {
+    height: 250px; }
+
+  .films-head .bottom .btn-wrap a span {
+    font-size: 10px;
+    line-height: 1.5; }
+
+  .films-head {
+    padding-top: 13px; }
+
+  .films-head .content-width {
+    padding-bottom: 90px; }
+
+  .films-head .content-width .bg span {
+    right: 10px;
+    bottom: 65px; }
+
+  .film-completed {
+    padding: 155px 0 63px; }
+
+  .film-completed .left {
+    margin-bottom: 25px; }
+
+  .film-completed + .film-completed {
+    padding-top: 80px; }
+
+  .film-completed .right .film-item:nth-last-child(2) {
+    margin-bottom: 60px; }
+
+  .films-detail-head .play-wrap a .round, .films-detail-head .play-wrap a .round:after, .film-about .video-btn a .round, .film-director .video-btn a .round, .film-festival .video-btn a .round, .film-about .video-btn a .round:after, .film-director .video-btn a .round:after, .film-festival .video-btn a .round:after {
+    width: 40px;
+    height: 40px;
+    font-size: 12px; }
+
+  .films-detail-head .play-wrap a span, .film-about .video-btn a span, .film-director .video-btn a span, .film-festival .video-btn a span {
+    font-size: 11px;
+    line-height: 16px; }
+
+  .films-detail-head .play-wrap {
+    -webkit-transform: translate(-50%, -112%);
+            transform: translate(-50%, -112%); }
+
+  .films-detail-head .bottom ul li {
+    margin: 0 10px; }
+    .films-detail-head .bottom ul li a {
+      font-size: 10px;
+      line-height: 1.5; }
+
+  .films-detail-head .content-width {
+    min-height: 658px; }
+
+  .films-detail-head .bottom .btn-wrap a {
+    margin-bottom: 10px;
+    display: inline-block; }
+
+  .film-about, .film-director, .film-festival {
+    padding: 142px 0 25px; }
+
+  .film-about .left p, .film-director .left p, .film-festival .left p {
+    margin-bottom: 39px; }
+
+  .film-about .left .link-wrap, .film-director .left .link-wrap, .film-festival .left .link-wrap {
+    margin-bottom: 38px; }
+
+  .film-about .right .item h6, .film-director .right .item h6, .film-festival .right .item h6 {
+    font-size: 18px;
+    line-height: 31px;
+    margin-bottom: 20px; }
+
+  .film-about .right .item p.info, .film-director .right .item p.info, .film-festival .right .item p.info {
+    margin-bottom: 21px; }
+
+  .film-about .right .item p.info + p, .film-director .right .item p.info + p, .film-festival .right .item p.info + p {
+    margin-top: 48px; }
+
+  .film-about .right .item, .film-director .right .item, .film-festival .right .item, .film-versions .item, .film-stills .right .item {
+    margin-bottom: 20px; }
+
+  .film-versions .bg span {
+    width: 95px;
+    height: 95px;
+    top: -50px;
+    left: -33px; }
+
+  .film-versions .left {
+    margin-bottom: 20px; }
+
+  .film-versions .item figure {
+    height: 230px; }
+
+  .film-versions .item p {
+    font-size: 22px;
+    line-height: 22px; }
+
+  .film-versions .item {
+    margin-bottom: 55px; }
+
+  .film-director {
+    padding-top: 15px; }
+
+  .film-director .left h6 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 26px; }
+
+  .film-director h2 {
+    margin-bottom: 35px; }
+
+  .film-director .left {
+    margin-bottom: 35px; }
+
+  .film-festival {
+    padding-top: 88px; }
+
+  .film-festival .bg span {
+    width: 95px;
+    height: 85px;
+    top: 98px;
+    left: -35px; }
+
+  .film-festival .right .item ul li p {
+    line-height: 18px; }
+
+  .film-festival .right .item ul li {
+    margin-bottom: 45px; }
+
+  .film-stills {
+    padding: 70px 0 100px; }
+    .film-stills .left {
+      margin-bottom: 18px; }
+
+  .film-stills .right .item a {
+    height: 230px; }
+
+  .film-stills .right .item {
+    margin-bottom: 40px; }
+
+  .films-detail-head .play-wrap a {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(20, 20, 20, 0.5) 0%, rgba(20, 20, 20, 0) 100%); }
+
+  .exhibitions-head {
+    padding: 120px 0 45px; }
+
+  .exhibitions-head .content-width .bg span {
+    width: 95px;
+    height: 95px;
+    top: -46px;
+    left: -33px; }
+
+  .exhibitions-head .left {
+    margin-bottom: 45px; }
+
+  .list-icon li p {
+    line-height: 18px; }
+
+  .list-icon li img {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+
+  .exhibitions-head .right .item p {
+    margin-bottom: 37px; }
+
+  .list-icon li {
+    padding-left: 47px;
+    margin-bottom: 43px; }
+
+  .list-icon li p {
+    margin: 0 0 25px !important; }
+
+  .list-icon li p a {
+    font-size: 18px;
+    line-height: 18px; }
+
+  .exhibitions-head .btn-wrap .btn-default {
+    width: 100%;
+    text-align: center; }
+
+  .exhibitions-head .link {
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px; }
+
+  .exhibitions-head .btn-wrap p {
+    text-align: center; }
+
+  .exhibitions-head .btn-wrap p {
+    margin-top: 25px; }
+
+  .exhibitions-head .right .item {
+    margin-bottom: 5px; }
+
+  .exhibitions-section .content-width .line {
+    left: 0; }
+
+  .exhibitions-section .content:before {
+    left: -40px; }
+
+  .exhibitions-section .left {
+    margin-bottom: 25px; }
+
+  .exhibitions-section .content:before {
+    top: 28px; }
+
+  .about-head .slider-wrap > figure {
+    height: 250px; }
+
+  .home-slider-wrap + .partners {
+    margin-top: 65px; }
+
+  .contact-head {
+    padding: 120px 0 100px; }
+
+  .contact-head .bg span {
+    width: 95px;
+    height: 95px;
+    top: -45px;
+    left: -35px; }
+
+  .contact-head h1 {
+    margin-bottom: 20px; }
+
+  .contact-head .left {
+    margin-bottom: 3px; }
+
+  .contact-head .item ul + h6 {
+    margin-top: 55px; }
+
+  .form-default label {
+    font-size: 18px; }
+
+  .form-default input {
+    font-size: 18px;
+    line-height: 40px; }
+
+  .form-default {
+    margin: 25px 0 30px; }
+  .partners{
+    padding-top: 5px;
+  }
+  .film.news .film-item {
+    width: 100% !important;
+  }
+  .single .title-wrap .title h1, section.single .title-wrap .title h1{
+    font-size: 34px;
+  }
+  .single .content h6{
+    font-size: 20px;
+  }
+  .single .content h5{
+    font-size: 22px;
+  }
+  .single .content h4{
+    font-size: 24px;
+  }
+  .single .content h3{
+    font-size: 26px;
+  }
+  .single .content h2{
+    font-size: 30px;
+  }
+  .single .content ul li:before{
+    top: 9px;
+  }
+  .single .title-wrap figure, section.single .title-wrap figure{
+    height: 250px;
+  }
+  .single .title-wrap{
+    margin-bottom: 40px;
+  }
+  .contact-head .form-default {
+    margin-top: -5px; } }
+@media (max-width: 359px) {
+  .menu-responsive .menu-wrap {
+    width: 100%; }
+
+  .content-width {
+    padding: 0 15px; }
+
+  .home-head-block .bottom ul li, .home-slider-wrap .bottom ul li {
+    margin: 0 10px; }
+
+  .exhibitions-section .content:before {
+    left: -28px;
+    top: 28px; } }
+
+/*# sourceMappingURL=responsive.css.map */
